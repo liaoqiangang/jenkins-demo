@@ -1,0 +1,33 @@
+server:
+  port: 8081
+
+
+mybatis:
+ mapper-locations: # 所有的mapper映射文件
+ - classpath:mapping/*.xml
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource #配置当前要使用的数据源的操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver #配置mysql的驱动程序类
+    url: jdbc:mysql://192.168.1.91:3306/spring-cloud?serverTimezone=GMT%2B8&useSSL=false #数据库连接地址
+    username: root
+    password: root
+  application:
+    name: microcloud-provider-product
+
+logging:
+  level:
+    com.infocity.mapper: debug
+
+management:
+  endpoint:
+    env:
+      enabled: true
+
+
+info:
+  app.name: microcloud-provider-product
+  company.name: infocity
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
