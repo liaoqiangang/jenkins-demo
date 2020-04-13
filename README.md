@@ -1,5 +1,5 @@
-# microcloud-provider-product
+# Jenkins-demo
 
-商品服务提供方
 
-引用 microcloud-security权限模块，对所有服务做权限控制
+jenkins 自动部署
+
