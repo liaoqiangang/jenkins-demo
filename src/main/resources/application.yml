@@ -13,7 +13,7 @@ spring:
     username: root
     password: root
   application:
-    name: microcloud-provider-product
+    name: jenkins-demo
 
 logging:
   level:
@@ -26,7 +26,7 @@ management:
 
 
 info:
-  app.name: microcloud-provider-product
+  app.name: jenkins-demo
   company.name: infocity
   build.artifactId: $project.artifactId$
   build.version: $project.version$
