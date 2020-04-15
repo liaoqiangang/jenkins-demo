@@ -61,7 +61,7 @@
     </dependencies>
 
     <build>
-        <finalName>microcloud</finalName>
+        <finalName>jenkins-demo</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
